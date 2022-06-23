@@ -4,7 +4,7 @@ import org.junit.Test;
 public class CircleTest {
 
     @Test
-    public void shouldCircleAreaEquals7() {
+    public void shouldGetCircleArea() {
         //given 1.493
         Circle circle = new Circle();
         circle.setRadius(1.493);
@@ -15,7 +15,7 @@ public class CircleTest {
     }
 
     @Test
-    public void shouldCircleePermiterEquals8() {
+    public void shouldGetCirclePermiter() {
         //given
         Circle circle = new Circle();
         circle.setRadius(1.272);

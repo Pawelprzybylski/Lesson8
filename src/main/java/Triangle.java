@@ -21,16 +21,8 @@ public class Triangle extends Shape {
         return b;
     }
 
-    public void setB(int b) {
-        this.b = b;
-    }
-
     public int getC() {
         return c;
-    }
-
-    public void setC(int c) {
-        this.c = c;
     }
 
     public Triangle(int a, int h) {
@@ -42,16 +34,8 @@ public class Triangle extends Shape {
         return a;
     }
 
-    public void setA(int a) {
-        this.a = a;
-    }
-
     public int getH() {
         return h;
-    }
-
-    public void setH(int h) {
-        this.h = h;
     }
 
     @Override

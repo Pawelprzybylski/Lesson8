@@ -4,7 +4,7 @@ import org.junit.Test;
 public class TriangleTest {
 
     @Test
-    public void shouldTriangleAreaEqual8() {
+    public void shouldGetTriangleArea() {
         //given
         Triangle triangle = new Triangle(2, 8);
         //when
@@ -14,7 +14,7 @@ public class TriangleTest {
     }
 
     @Test
-    public void shouldTrianglePermiterEqual9() {
+    public void shouldGetTrianglePermiter() {
         //given
         Triangle triangle = new Triangle(5, 2, 2);
         //when

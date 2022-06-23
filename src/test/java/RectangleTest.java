@@ -4,7 +4,7 @@ import org.junit.Test;
 public class RectangleTest {
 
     @Test
-    public void shouldRectangleAreaEqual20() {
+    public void shouldGetRectangleArea() {
         //given
         Rectangle rectangle = new Rectangle(5, 10);
         //when
@@ -14,7 +14,7 @@ public class RectangleTest {
     }
 
     @Test
-    public void shouldRectanglePermiterEqual128() {
+    public void shouldGetRectanglePermiter() {
         //given
         Rectangle rectangle = new Rectangle(4, 8);
         //when

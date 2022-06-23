@@ -4,7 +4,7 @@ import org.junit.Test;
 public class SquareTest {
 
     @Test
-    public void shouldSquareAreaEqual25() {
+    public void shouldGetSquareArea() {
         //given
         Square square = new Square(5,5);
         //when
@@ -14,7 +14,7 @@ public class SquareTest {
     }
 
     @Test
-    public void shouldSquarePermiterEqual16() {
+    public void shouldGetSquarePermiter() {
         //given
         Square square = new Square(4,4);
         //when
