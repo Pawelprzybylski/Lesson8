@@ -1,10 +1,7 @@
-import java.util.SortedMap;
-
 public class Day {
-    private static Days_Of_Week daysOfWeek;
 
-    public static void printDayOfWeek() {
-        switch (daysOfWeek) {
+    public static void printDayOfWeek(DaysOfWeek DAYS_OF_WEEK) {
+        switch (DAYS_OF_WEEK) {
             case Monday:
                 System.out.println("Poniedziałek");
                 break;
@@ -29,6 +26,7 @@ public class Day {
         }
 
     }
+
 }
 
 
