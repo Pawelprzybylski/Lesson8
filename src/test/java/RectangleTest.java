@@ -3,7 +3,7 @@ import org.junit.Test;
 
 public class RectangleTest {
     @Test
-    public void shouldAreaRectangleEqual10() {
+    public void shouldGetAreaRectangle() {
         //given
         Rectangle rectangle = new Rectangle(5, 2);
         //when
@@ -12,7 +12,8 @@ public class RectangleTest {
         Assert.assertEquals(10, rectangleArea);
     }
 
-    public void shouldPerimeterRectangleEqual14() {
+    @Test
+    public void shouldGetPerimeterRectangle() {
         //given
         Rectangle rectangle = new Rectangle(5, 2);
         //when

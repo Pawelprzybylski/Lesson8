@@ -3,16 +3,16 @@ import org.junit.Test;
 
 public class TriangleTest {
     @Test
-    public void shouldAreaTriangleEqual10() {
+    public void shouldGetAreaTriangleEqual() {
         //given
-        Triangle triangle = new Triangle(5, 4);
+        Triangle triangle = new Triangle(5, 3,3,4);
         //when
         int triangleArea = triangle.calculateArea();
         //then
         Assert.assertEquals(10, triangleArea);
     }
     @Test
-    public void shouldPerimeterTriangleEqual14() {
+    public void shouldGetPerimeterTriangle() {
         //given
         Triangle triangle = new Triangle(5, 2, 7);
         //when
